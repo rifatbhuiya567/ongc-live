@@ -1419,8 +1419,8 @@ footer {
     font: 500 17px/1.3 'Inter', sans-serif;
 }
 
-.contact-form::placeholder {
-    font-size: 14px;
+.contact-form ::placeholder {
+    font-size: 15px;
 }
 
 .contact-form label span {
