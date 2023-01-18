@@ -119,7 +119,7 @@
 
     <!-- Project area start -->
     <section id="projects" class="our-projects">
-        <div class="container">
+        <div class="container project-content-hide">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-8 col-md-6 text-center" data-aos="fade-right">
                     <div class="section-intro">
@@ -155,7 +155,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -173,7 +173,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -191,7 +191,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -209,7 +209,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -227,7 +227,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -245,7 +245,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -263,7 +263,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -281,7 +281,7 @@
                                 <h6>project name</h6>
                             </div>
                             <div class="img-action">
-                                <a href="#">
+                                <a class="pointer" onclick="myGallery()">
                                     <i class="fa-solid fa-magnifying-glass-plus"></i>
                                 </a>
                             </div>
@@ -300,6 +300,179 @@
                 </div>
             </div>
         </div>
+        <!-- Toggle Gallery Area Start -->
+        <div class="container project-gallery">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-8 col-md-6 text-center">
+                    <div class="section-intro">
+                        <h3>project name</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-intro-bttm-gap">
+                <div class="col-lg-12 gallery-images">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/projects/1.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image one</p>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/projects/2.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image two</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/projects/3.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image three</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/projects/4.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image four</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/projects/5.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image five</p>
+                        </div>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/projects/6.jpg" class="img-fluid w-100" alt="project img" />
+                        <div class="project-text">
+                            <p>project image six</p>
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                    <a class="next" onclick="plusSlides(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+
+                    <div class="buttons">
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/1.jpg" class="img-fluid"
+                                alt="Project Image One" onclick="currentSlide(1)" />
+                        </div>
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/2.jpg" class="img-fluid"
+                                alt="Project Image Two" onclick="currentSlide(2)" />
+                        </div>
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/3.jpg" class="img-fluid"
+                                alt="Project Image Three" onclick="currentSlide(3)" />
+                        </div>
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/4.jpg" class="img-fluid"
+                                alt="Project Image Four" onclick="currentSlide(4)" />
+                        </div>
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/5.jpg" class="img-fluid"
+                                alt="Project Image Five" onclick="currentSlide(5)" />
+                        </div>
+                        <div class="column">
+                            <img class="gallery-btm-images cursor" src="images/projects/6.jpg" class="img-fluid"
+                                alt="Project Image Six" onclick="currentSlide(6)" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery-btm-content gallery-alternative">
+                <div class="col-lg-6 col-md-7">
+                    <div class="project-details">
+                        <div class="heading">
+                            <h5>project details</h5>
+                        </div>
+                        <div class="project-details-list">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span class="name">client:</span>
+                                    <span class="detail">Lorem ipsum dolor sit amet.</span>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span class="name">location:</span>
+                                        <span class="detail">Lorem ipsum dolor</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="name">starting date:</span>
+                                    <span class="detail">Dec - 2018</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="name">completion date:</span>
+                                    <span class="detail">Jan - 2019</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="name">contract value:</span>
+                                    <span class="detail">SAR 3,706,165,248</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="name">contract value:</span>
+                                    <span class="detail">USD 988,310,784</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-users"></i>
+                                    <span class="name">scope of work:</span>
+                                    <span class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla exercitationem quibusdam eos non corporis enim deleniti placeat asperiores unde animi.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 sm-d col-md-5">
+                    <div class="project-info">
+                        <div class="heading">
+                            <h5>project info</h5>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit quae libero rem nihil sequi, inventore ex eaque, beatae labore molestiae laudantium et temporibus eum hic ad iusto provident minima doloremque. Accusamus aliquid consequatur molestiae eveniet nemo dolorum quia omnis!
+                        </p>
+                        <ul>
+                            <li>
+                                <span class="name">client :</span>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                            </li>
+                            <li>
+                                <span class="name">partner :</span>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center section-intro-bttm-gap gallery-alternative">
+                <div class="return-btn text-center">
+                    <button onclick="returnButton()">
+                        <span>back</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Toggle Gallery Area End -->
     </section>
     <!-- Project area end -->
 
